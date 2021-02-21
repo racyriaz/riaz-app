@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-size: medium;
+  font-weight: 300;
+  list-style: none;
+  text-decoration: none;
+  color: #DDDBE1;
+  background-color: #252735;
+}
+
+
+/*
+yellow #FFAF23
+bg-dark #252735
+bg-light #343647
+font-light #FEFFFF
+font-dark #434659
+biggest-fonts #DDDBE1
+big-font #6A6C7C
+symbols #F6B95A
+*/
+.nav-logo {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem 0 8px ;
+}
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0 0.75rem;
+  margin: 1px 3rem;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin: 2px 0 0 20px;
+  font-size: 1.35rem;
+}
+
+.page-container {
+  margin: 0 3rem;
+}
+
+.my-name {
+  font-size: 3rem;
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 9rem 0;
+  font-style: normal;
+  text-align: center;
+  z-index: 5;
+  color: #f0eff1;
+}
